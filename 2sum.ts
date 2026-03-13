@@ -9,6 +9,7 @@ function twoSumBrute(nums: number[], target: number): number[] {
     return []
 }
 
+//hash maps solution fastest O(n) time complexity and O(n) space complexity
 function twoSum(nums: number[], target: number): number[] {
     const map = new Map<number, number>() // value -> index
 
@@ -27,5 +28,5 @@ function twoSum(nums: number[], target: number): number[] {
     return []
 }
 
-console.log(twoSum([2, 7, 11, 15], 26)) // [0, 1]
+console.log(twoSum([2, 7, 11, 15], 26)) // [2, 3]
 console.log(twoSumBrute([3, 2, 4], 6)) // [1, 2]
