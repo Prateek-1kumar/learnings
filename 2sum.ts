@@ -26,3 +26,6 @@ function twoSum(nums: number[], target: number): number[] {
 
     return []
 }
+
+console.log(twoSum([2, 7, 11, 15], 26)) // [0, 1]
+console.log(twoSumBrute([3, 2, 4], 6)) // [1, 2]
